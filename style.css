@@ -1,0 +1,46 @@
+img {
+    width: 300px;
+    }
+
+.button-color {
+    color: oldlace;
+}
+nav {
+    padding: 20px;
+    word-spacing: 10px;
+    background-color: black;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    color: oldlace;
+    font-family: verdana, sans-serif;
+}
+.hz-logo {width: 200px;}
+*{margin: 0;
+padding: 0;
+}
+#sidebar{position: fixed;
+width: 20%;
+right: 0;
+bottom: 100;
+height: 100%;
+background-color: white;
+}
+
+
+#sidebar li{color: black;
+font-size: 20px;
+margin: 30px;
+border-bottom: black;
+text-align: center;
+bottom: 30px;
+position: fixed;}
+.toggle-btn{position: absolute;
+right: 120%;
+top:15%;
+;}
+.toggle-btn span{display: block;
+background-color:rgb(58, 58, 58);
+width: 30px;
+height: 5px;
