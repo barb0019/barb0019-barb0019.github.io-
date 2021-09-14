@@ -1,35 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profiel</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+nav {
+    padding: 20px;
+    word-spacing: 10px;
+    background-color: black;
+}
+body {
+  font-family: verdana, sans-serif;
+  padding: 20px;
+  background: rgb(58, 58, 58);
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+</style>
+<title>profiel</title>
 </head>
 <body>
-    <nav><a class="button-color" href="index.html">Home</a>
-        <a class="button-color" href="blog.html">Blog</a>
-        <a class="button-color" href="dashboard.html">Dashboard</a>
-        <a class="button-color" href="FAQ.html">FAQ</a>
-        <a class="button-color" href="profile.html">Profiel</a>
+    <nav><a class="button-color" href="index.html" style="color: oldlace;">Home</a>
+        <a class="button-color" href="blog.html" style="color: oldlace;">Blog</a>
+        <a class="button-color" href="dashboard.html" style="color: oldlace;">dashboard</a>
+        <a class="button-color" href="FAQ.html" style="color: oldlace;">FAQ</a>
+        <a class="button-color" href="profile.html" style="color: oldlace;">profiel</a>
     </nav>
-    <div id="sidebar">
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Wie ben ik?</h2>
+      <div><img src="foto' s/Egyptian museum.jpg" width="350" height="350"/>
+        <img src="foto' s/elsahel.jpg" width="350" height="350"/>
+        <img src="foto' s/pyramids.jpg" width="345" height="350"/></div>
+      <p>Ik ben Saif El Barbary. Ik ben 17 jaar oud en ben geboren in Vlissingen, Zeeland.</p>
+      <p> Ik kom oorspronkelijk uit Egypte en ga er ook vaak heen op vakantie. Ik ben groot fan van de geschiedenis,
+        landschappen en cultuur. De stranden, woestijnen en bouwwerken zoals de Pyramides.<br>
+        <br>
+        Mijn hobby's zijn: gamen, sporten, netflixen, lezen en research doen. Dat laatste klinkt een beetje gek. 'over wat doe
+        je dan research?' vraag je je zeker af. Nou, van alles en nog wat als ik eerlijk ben. <br>
+        <br>
+        Een van die dingen waar ik research naar doe is ICT. Ik heb er nog niet zo heel lang geleden voor gekozen om ICT te doen. Ik deed ongeveer 3 jaar
+        geleden research over ICT en zag dat er een schreeuwend tekort is aan ICT'ers in de wereld, wat heel zorgwekkend is.
+        ICT is de wereld aan het overnemen, ICT zie je dagelijks terug. Denk maar aan websites, software van elektronica,
+        elektronische borden op het station en ga zo maar door.
+        Sinds ik zelf ook wel een aanleg heb voor een makkelijke omgang met elektronica, dacht ik bij mezelf: Dit is een
+        gouden kans! Want als ICT'er ligt de wereld straks aan je voeten!
+      </p>
+      </div>
+    <div class="card">
+      <h2>mijn hobby's</h2>
+      <div><img src="foto' s/me-in-pads.jpg" width="300" height="350"/>
+        <img src="foto' s/football-in-rain.jpg" width="350" height="350"/>
+        <img src="foto' s/sharks.jpg" width="350" height="350"></div>
+      <p>Laten we nog wat dieper in duiken op mijn hobby's.</p>
+      <p>Ik heb alle drie de sporten bij een vereniging gespeeld, maar op dit moment speel ik American Football bij het
+        sportteam van de HZ en voor de rest doe ik gewoon vrije tijd sport.
+        Mensen noemen mij vaak:
         <ul>
-            <li><a class="sidemenu-color" href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank" style="color: black;">HZ onderwijs en examenregelingen</a></li>
-            <br/>
-            <li><a class="sidemenu-color" href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf" target="_blank" style="color: black;">De HZ HBO-ICT uitvoeringsregeling</a></li>
-            <br/>
-            <li><a class="sidemenu-color" href="https://learn.hz.nl/my/" target="_blank" style="color: black;">HZ learn</a></li>
-            <br/>
-            <li><a class="sidemenu-color" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fteam%2F19%3A827654897ab746089c081f24aff1c984%40thread.skype%2Fconversations%3FgroupId%3D337e8cca-f67d-4132-9fa9-b0c761bbeb94%26tenantId%3D4c16deb3-342d-4fca-bcd5-b1429308034c&type=team&deeplinkId=8ea1dd34-eb9d-4077-be6f-def68a5f907b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" target="_blank" style="color: black;">HBO-ICT teams</a></li>
-            <br/>
-            <li><a class="sidemenu-color" href="https://apps.hz.nl/angular/studievoortgang/login" target="_blank" style="color: black;">Mijn studievoortgang</a></li>
-            <br/>
-            <li><a class="sidemenu-color" href="https://github.com/" target="_blank" style="color: black;">Github</a></li>
-        </ul>
+      <li>Grappig</li>
+       <li> Intelligent</li>
+       <li> Soms ook een mood</li>
+      </ul>
+        Ik weet zelf eigenlijk niet wat ik van die meningen moet vinden, maar ze zijn niet slecht I guess. Ik lees veel boeken
+        over detectives, oorlogen en huidige problemen binnen de maatschappij. <br>
+        <br>
+        Ik denk dat ik ICT wel aankan, want als ik ergens voor ga is het ook voor de 100%. Ik stond bijv. een 6 gemiddeld voor wiskunde in Havo 5 en haalde voor mijn
+        eindexamen een 9! Daarmee stond ik een 8 voor wiskunde op mijn diploma, dat is een van de voorbeelden waar ik echt de
+        100% had gegeven in mijn leven en ik hoop met ICT nog veel meer te bereiken.
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>favoriete series</h2>
+      <div><img src="foto' s/breaking-bad.jpg" width="300" height="300"></div>
+      <div><img src="foto' s/Peaky_Blinders_4.jpg" width="300" height="300"></div>
+      <p>Breaking bad & Peaky blinders</p>
+    </div>
+    <div class="card">
+      <h3>favoriete boeken</h3>
+      <div><img src="foto' s/sherlock-holmes.jpg" width="250" height="300"></div>
+      <div><img src="foto' s/abdelkader-benali.jpg" width="250" height="300"></div>
+    </div>
+    <div class="card">
+      <h3>Mijn sociale media</h3>
+      <div><img src="foto' s/insta-qr.jpg" width="280" height="300"></div>
+    </div>
+  </div>
 </div>
-<img class="hz-logo" src="hz-logo.jpg" alt="hz logo"
-        style="position: absolute; top: 100px; right: 30px;">
 </body>
 </html>
