@@ -20,12 +20,19 @@
     float: left;
     width: 100%;
   }
+  .rightcolumn-index {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    height: 678px;
+  }
   .rightcolumn {
     float: left;
     width: 25%;
     background-color: #f1f1f1;
     padding-left: 20px;
-    height: 740px;
+    height: 701.938px;
   }
   .rightcolumn-faq {
     float: left;
@@ -49,7 +56,18 @@
     background-color: white;
     padding: 20px;
     margin-top: 0px;
+    padding-bottom: 20px;
     
+  }
+  
+  .card-index {
+    background-color: white;
+    padding: 20px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+  .card-github-padding{
+    padding-bottom: 30px;
   }
   .row:after {
     content: "";
@@ -90,7 +108,7 @@ color: oldlace;}
 }
 
 #progress:after {
-  content: 'NBSA 0% complete';
+  content: 'NBSA 4,2% complete';
   text-align: center;
   display: block;
   background: red;
